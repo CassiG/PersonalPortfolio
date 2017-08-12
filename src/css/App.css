@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .App-logo {
@@ -12,6 +14,15 @@
   vertical-align: middle;
   line-height: 80px;
   margin: 0 auto;
+  display:inline-block;
+  float: left;
+}
+
+.App-nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    float: right;
 }
 
 .App-header {
