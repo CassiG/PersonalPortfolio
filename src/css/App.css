@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   margin: 0 auto;
   width: 70%;
 }
@@ -26,8 +25,8 @@
 }
 
 .App-header {
-  height: 150px;
-  padding: 20px;
+  height: 100px;
+  padding: 20px 0;
 }
 
 .App-intro {

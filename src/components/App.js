@@ -18,9 +18,11 @@ class App extends Component {
               <li>Blog</li>
             </ul>
         </div>
+        <h1>Hello</h1>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae ligula interdum, finibus ipsum quis, tincidunt massa. Cras dignissim ac erat vel eleifend. Sed euismod nisl ut ex tincidunt aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ante eros, ultrices a facilisis consequat, convallis et metus. Cras dapibus ipsum ipsum, non maximus mi eleifend sed. Morbi commodo finibus cursus. Praesent suscipit, sapien at mattis cursus, justo ante eleifend lacus, sit amet auctor purus tellus elementum justo. Etiam euismod auctor magna quis vehicula.
         </p>
+        <button>Let's Chat!</button>
       </div>
     );
   }
