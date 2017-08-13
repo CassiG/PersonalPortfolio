@@ -6,15 +6,16 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <div className="Header-header">
+        <div className="Header">
         <div className="Header-logo" alt="logo">
           <Link to ='/'>CGS</Link>
         </div>
-
+          <nav id="nav">
             <ul className='Header-nav'>
               <li></li>
             </ul>
-          </div>
+          </nav>
+        </div>
       </div>
     )
   }

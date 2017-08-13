@@ -4,7 +4,18 @@ body {
   font-family: 'Merriweather Sans', sans-serif;
 }
 
+#wrap {
+  display: grid;
+  grid-template-columns: 12rem calc(100% - 12rem);
+}
+
 h1 {
   font-family: 'Yeseva One', cursive;
   font-size: 60px;
+}
+
+@media (max-width: 60rem) {
+  #wrap {
+    display: block;
+  }
 }

@@ -6,7 +6,7 @@ import '.././css/Main.css';
 class Main extends Component {
   render(){
     return(
-      <main>
+      <main id="wrap">
         <Switch>
           <Route exact path='/' component={Home} />
         </Switch>
