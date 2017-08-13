@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom'
+import AllProjects from './AllProjects';
+import ProjectItem from './ProjectItem';
 
 class OngoingProjects extends Component {
   render() {

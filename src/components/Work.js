@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { Switch, Route } from 'react-router-dom'
+import AllWork from './AllWork';
+import WorkItem from './WorkItem';
 
 class Work extends Component {
   render() {
