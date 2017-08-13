@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class OngoingProjects extends Component {
   render() {
     return(
-      <h1>Ongoing Projects</h1>
+      <Switch>
+        <Route exact path='/ongoing-projects' component={AllProjects} />
+        <Route exact path='/work/:project-name' component={ProjectItem} />
+      </Switch>
     );
   }
 }

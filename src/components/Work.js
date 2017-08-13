@@ -3,7 +3,10 @@ import React, { Component } from 'react';
 class Work extends Component {
   render() {
     return(
-      <h1>Work</h1>
+      <Switch>
+        <Route exact path='/work' component={AllWork} />
+        <Route exact path='/work/:work-name' component={WorkItem} />
+      </Switch>
     );
   }
 }
