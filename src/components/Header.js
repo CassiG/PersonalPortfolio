@@ -12,7 +12,10 @@ class Header extends Component {
         </div>
           <nav id="nav">
             <ul className='Header-nav'>
-              <li></li>
+              <li><Link to = '/contact'>Contact</Link></li>
+              <li><Link to = '/ongoing-projects'>Ongoing Projects</Link></li>
+              <li><Link to = '/work'>Work</Link></li>
+              <li><Link to = '/about'>About</Link></li>
             </ul>
           </nav>
         </div>
