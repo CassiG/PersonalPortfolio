@@ -9,6 +9,10 @@ body {
   grid-template-columns: 12rem calc(100% - 12rem);
 }
 
+#content{
+  grid-column: 1 / -1;
+}
+
 h1 {
   font-family: 'Yeseva One', cursive;
   font-size: 60px;
