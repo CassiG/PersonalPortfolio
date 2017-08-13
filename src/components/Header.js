@@ -3,19 +3,21 @@ import '.././css/Header.css';
 
 class Header extends Component {
   render() {
+    const navItems = ['Contact', 'Blog', 'Ongoing Projects', 'Work', 'About'];
+    const nav = navItems.map ((navItem) =>
+      <li key={navItem.id}>{navItem}</li>
+  );
     return (
-      <div className="App-header">
-      <div className="App-logo" alt="logo">CGS</div>
+      <div>
+        <div className="Header-header">
+        <div className="Header-logo" alt="logo">CGS</div>
 
-          <ul className='App-nav'>
-            <li>About</li>
-            <li>Work</li>
-            <li>Ongoing Projects</li>
-            <li>About Me</li>
-            <li>Contact</li>
-            <li>Blog</li>
-          </ul>
-        </div>
+            <ul className='Header-nav'>
+            {nav}
+            </ul>
+          </div>
+        <h1>{this.props.title}</h1>
+      </div>
     )
   }
 }
