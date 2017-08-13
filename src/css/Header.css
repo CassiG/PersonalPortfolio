@@ -10,6 +10,15 @@
   margin: 0 auto;
   display:inline-block;
   float: left;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.Header-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2em;
+    padding: 0;
+    letter-spacing: .1em;
 }
 
 .Header-nav li {
