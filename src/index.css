@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 #wrap {
@@ -14,8 +14,14 @@ body {
 }
 
 h1 {
-  font-family: 'Yeseva One', cursive;
-  font-size: 60px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 6em;
+}
+
+.head-line {
+    width: 30%;
+    border: 5px solid #000;
+    margin: 1em 0 3em 0px;
 }
 
 @media (max-width: 60rem) {
