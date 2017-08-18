@@ -12,13 +12,11 @@ class Main extends Component {
     return(
       <main id="wrap">
         <Switch>
-          <div id="content">
-            <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route path='/work' component={Work} />
-            <Route path='/ongoing-projects' component={OngoingProjects} />
-            <Route exact path='/contact' component={Contact} />
-          </div>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={About} />
+          <Route path='/work' component={Work} />
+          <Route path='/ongoing-projects' component={OngoingProjects} />
+          <Route exact path='/contact' component={Contact} />
         </Switch>
       </main>
     );

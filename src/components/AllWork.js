@@ -11,7 +11,6 @@ class AllWork extends Component {
       ));
     return(
       <div>
-        <h1>Work</h1>
         <ul>{work}</ul>
       </div>
     );
