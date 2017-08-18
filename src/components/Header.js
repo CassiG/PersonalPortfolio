@@ -3,25 +3,14 @@ import { Link } from 'react-router-dom';
 import '.././css/Header.css';
 
 class Header extends Component {
-  constructor(){
+  constructor() {
     super();
-    this.state = {
-      pageHeader: 'Hello!'
-    }
     this.clickHandler = this.clickHandler.bind(this)
   };
-
-clickHandler(e){
-  if(e.target.textContent !== 'CGS') {
-    this.setState({
-      pageHeader: e.target.textContent
-    });
-  } else {
-    this.setState({
-      pageHeader: 'Hello!'
-    });
+  
+  clickHandler(e) {
+    this.props.setHeader(e.target.textContent)
   }
-}
 
   render() {
 
@@ -40,7 +29,8 @@ clickHandler(e){
             </ul>
           </nav>
         </div>
-        <h1>{this.state.pageHeader}</h1>
+        <h1>{this.props.text}</h1>
+        <hr className='head-line' />
       </div>
     )
   }
