@@ -5,7 +5,6 @@ import About from './About'
 import Work from './Work'
 import OngoingProjects from './OngoingProjects'
 import Contact from './Contact'
-import '.././css/Main.css';
 
 class Main extends Component {
   render(){

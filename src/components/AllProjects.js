@@ -13,7 +13,9 @@ class AllProjects extends Component {
         </div>
       ));
     return(
+      <div>
       {project}
+      </div>
     );
   }
 }
