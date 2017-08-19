@@ -46,8 +46,8 @@ class App extends Component {
 
       <div className="App">
       <main id="wrap">
-      {this.state.headHandler}
         <Header setHeader={this.headHandler} text={this.state.pageHeader}/>
+
         <Switch >
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
@@ -58,9 +58,9 @@ class App extends Component {
           />
           <Route exact path='/contact' component={Contact} />
         </Switch>
-        <Footer />
-        </main>
 
+        <Footer />
+      </main>
       </div>
     );
   }
