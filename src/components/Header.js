@@ -7,7 +7,7 @@ class Header extends Component {
     super();
     this.clickHandler = this.clickHandler.bind(this)
   };
-  
+
   clickHandler(e) {
     this.props.setHeader(e.target.textContent)
   }
