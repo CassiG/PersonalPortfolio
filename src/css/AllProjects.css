@@ -1,0 +1,21 @@
+.project-wrap {
+  margin: 0 auto;
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+@media (min-width: 60rem) { .project-wrap img,
+  .project-wrap {
+    text-align: left;
+  }
+
+  .project-wrap div {
+    width: 45%;
+    float: left
+  }
+
+  .project-wrap div {
+    margin: 0 0 0 5%;
+    width: 45%;
+  }
+}
