@@ -8,7 +8,7 @@ class OngoingProjects extends Component {
     return(
       <Switch>
         <Route exact path='/ongoing-projects' component={AllProjects} />
-        <Route exact path='/work/:project-name' component={ProjectItem} />
+        <Route exact path='/ongoing-projects/:id' component={ProjectItem} />
       </Switch>
     );
   }

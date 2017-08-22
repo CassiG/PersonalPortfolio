@@ -7,7 +7,11 @@ const ProjectAPI = {
       description: "A great project"
     },
   ],
-  all: function() { return this.projectItem }
+  all: function() { return this.projectItem },
+  get: function(id) {
+    const isProject = project => project.id === id
+    return this.projectItem.find(isProject)
+  }
 }
 
 export default ProjectAPI;

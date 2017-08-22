@@ -14,7 +14,7 @@ class AllWork extends Component {
       ));
     return(
       <div>
-        <ul>{work}</ul>
+        {work}
       </div>
     );
   }
