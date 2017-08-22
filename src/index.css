@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.display-none {
+  display: none;
+}
+/* Body */
+
 body {
   margin: 0;
   padding: 0;
@@ -32,7 +37,28 @@ h1 {
   grid-row: row 2 ;
 }
 
-@media (max-width: 60rem) {
+.project-wrap {
+  margin: 0 auto;
+  text-align: center;
+  margin: 5% 0 0 0;
+}
+
+@media (min-width: 60rem) {
+  .project-wrap {
+    text-align: left;
+  }
+
+  .project-wrap img,
+  .project-wrap div {
+    width: 45%;
+    float: left
+  }
+
+  .project-wrap div {
+    margin: 0 0 0 5%;
+    width: 45%;
+  }
+
   #wrap {
     display: block;
   }

@@ -3,11 +3,14 @@ import WorkAPI from '../work-api'
 
 class AllWork extends Component {
   render() {
-    const work =WorkAPI.all().map(work => (
-        <li key={work.id.toString()}>
-        <p>{work.name}</p>
-        <p>{work.description}</p>
-        </li>
+    const work = WorkAPI.all().map(work => (
+        <div className='project-wrap'>
+          <img src={work.img} alt={work.name} />
+          <div>
+            <p>{work.name}</p>
+            <p>{work.description}</p>
+          </div>
+        </div>
       ));
     return(
       <div>

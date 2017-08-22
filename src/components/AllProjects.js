@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ProjectAPI from '../project-api'
-import '.././css/AllProjects.css';
 
 class AllProjects extends Component {
   render() {
