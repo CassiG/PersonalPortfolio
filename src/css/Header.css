@@ -9,7 +9,8 @@
   line-height: 80px;
   margin: 0 auto;
   display:inline-block;
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
 }
 
 .Header-logo a {

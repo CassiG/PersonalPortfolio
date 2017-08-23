@@ -22,10 +22,10 @@ class Header extends Component {
         </div>
           <nav id="nav">
             <ul className='Header-nav'>
-              <li><Link to='/contact' onClick={this.clickHandler}>Contact</Link></li>
-              <li><Link to = '/ongoing-projects' onClick={this.clickHandler}>Ongoing Projects</Link></li>
-              <li><Link to = '/work' onClick={this.clickHandler}>Work</Link></li>
               <li><Link to = '/about' onClick={this.clickHandler}>About</Link></li>
+              <li><Link to = '/work' onClick={this.clickHandler}>Work</Link></li>
+              <li><Link to = '/ongoing-projects' onClick={this.clickHandler}>Ongoing Projects</Link></li>
+              <li><Link to='/contact' onClick={this.clickHandler}>Contact</Link></li>
             </ul>
           </nav>
         </div>

@@ -10,7 +10,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #wrap {
@@ -18,8 +18,8 @@ body {
 }
 
 h1 {
-  font-family: 'Amatic SC', cursive;
-  font-size: 6em;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 4.5em;
 }
 
 .head-line {
