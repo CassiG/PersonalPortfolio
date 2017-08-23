@@ -13,13 +13,13 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#wrap {
-
-}
-
 h1 {
   font-family: 'Abril Fatface', cursive;
   font-size: 4.5em;
+}
+
+h2 {
+  font-weight: 700;
 }
 
 .head-line {
@@ -40,7 +40,7 @@ h1 {
 .project-wrap {
   margin: 0 auto;
   text-align: center;
-  margin: 5% 0 0 0;
+  margin: 2em 0 0 0;
 }
 
 @media (min-width: 60rem) {

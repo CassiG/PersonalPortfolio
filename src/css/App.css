@@ -3,7 +3,10 @@
   width: 70%;
 }
 
-
 .App-intro {
   font-size: large;
+}
+
+.short-description {
+  font-weight: 200;
 }
