@@ -9,7 +9,6 @@
   line-height: 80px;
   margin: 0 auto;
   display:inline-block;
-  float: left;
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -21,16 +20,20 @@
     letter-spacing: .1em;
 }
 
+nav {
+  float: right;
+  padding: 2em 0;
+}
+
 .Header-nav li {
     list-style: none;
     display: inline-block;
     margin: 0 10px;
-    float: right;
 }
 
 .Header {
   height: 100px;
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 0 0 50px 0;
-  grid-area: header;
+  border-bottom: 1px solid;
 }

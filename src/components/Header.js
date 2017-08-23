@@ -30,7 +30,6 @@ class Header extends Component {
           </nav>
         </div>
         <h1>{this.props.text}</h1>
-        <hr className='head-line' />
       </div>
     )
   }
