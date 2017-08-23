@@ -21,19 +21,27 @@ class App extends Component {
   };
 
   headHandler(e) {
-  if(e === 'CGS') {
-    this.setState({
-      pageHeader: 'Hello!'
-    });
-  } else if(e === "Let's Chat!") {
-    this.setState({
-      pageHeader: 'Contact'
-    });
-  } else {
-    this.setState({
-      pageHeader: e
-    });
-  }
+    if(e.includes('/about')) {
+      this.setState({
+        pageHeader: 'About'
+      });
+    } else if(e.includes('/work')) {
+      this.setState({
+        pageHeader: 'Work'
+      });
+    } else if(this.props.location.pathname('/ongoing-projects')) {
+      this.setState({
+        pageHeader: 'Ongoing Projects'
+      });
+    } else if(e.includes('/contact')) {
+      this.setState({
+        pageHeader: 'Contact'
+      });
+    } else {
+      this.setState({
+        pageHeader: 'Hello!'
+      });
+    }
   }
 
   subHeadHandler(e){

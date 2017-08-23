@@ -9,7 +9,7 @@ class Header extends Component {
   };
 
   clickHandler(e) {
-    this.props.setHeader(e.target.textContent)
+    this.props.setHeader(e.target.href)
   }
 
   render() {
