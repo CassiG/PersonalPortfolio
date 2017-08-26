@@ -56,6 +56,15 @@ h2 {
   display: block;
 }
 
+input.input-lg {
+  margin: 10px 0;
+  padding: 20px 10px;
+}
+
+textarea {
+  margin: 10px 0;
+}
+
 @media (min-width: 60rem) {
   .all-project-wrap-group {
     display: -webkit-flex;
@@ -83,6 +92,17 @@ h2 {
     float: left;
     width: 45%;
     margin: 0 10px;
+  }
+
+  form {
+    width: 45%;
+    float: right;
+  }
+
+  .contact-description {
+    width: 45%;
+    float:left;
+    margin: 0;
   }
 
   #wrap {
