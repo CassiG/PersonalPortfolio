@@ -9,7 +9,7 @@ class ProjectItem extends Component {
       <div className='project-wrap'>
         <img src={project.img} alt={project.name} />
         <div>
-          <Link to ={'/ongoing-projects/' + project.id} ><h2>{project.name}</h2></Link>
+          <h2>{project.name}</h2>
           <p className='short-description'>{project.shortDescription}</p>
           <p>About the Project: {project.longDescription}</p>
           <p>Technology Used: {project.technology}</p>
