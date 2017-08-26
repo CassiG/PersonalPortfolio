@@ -6,7 +6,7 @@ class AllProjects extends Component {
   render() {
     const project = ProjectAPI.all().map(project => (
       <Link to ={'/ongoing-projects/' + project.id} >
-        <div key={project.id}>
+        <div className='all-project-wrap' key={project.id}>
           <img src={project.img} alt={project.name} />
           <div className="all-project-description">
             <h2>{project.name}</h2>
@@ -16,7 +16,7 @@ class AllProjects extends Component {
       </Link>
       ));
     return(
-      <div className='all-project-wrap'>
+      <div className="all-project-wrap-group">
       {project}
       </div>
     );
