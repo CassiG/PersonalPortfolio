@@ -6,19 +6,19 @@ class AllProjects extends Component {
   render() {
     const project = ProjectAPI.all().map(project => (
       <Link to ={'/ongoing-projects/' + project.id} >
-        <div className='all-project-wrap' key={project.id}>
+        <li className='all-project-wrap' key={(project.id).toString()}>
           <img src={project.img} alt={project.name} />
           <div className="all-project-description">
             <h2>{project.name}</h2>
             <p className='all-short-description'>{project.shortDescription}</p>
           </div>
-        </div>
+        </li>
       </Link>
       ));
     return(
-      <div className="all-project-wrap-group">
+      <ul className="all-project-wrap-group">
       {project}
-      </div>
+      </ul>
     );
   }
 }

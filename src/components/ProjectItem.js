@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import ProjectAPI from '../project-api'
-import { Link } from 'react-router-dom';
 
 class ProjectItem extends Component {
   render() {
-    const project = ProjectAPI.get(parseInt(this.props.match.params.id));
+    const project = ProjectAPI.get(parseInt(this.props.match.params.id, 10));
     return(
       <div className='project-wrap'>
         <img src={project.img} alt={project.name} />
