@@ -31,8 +31,16 @@ button:hover {
   background-color: #60BFA4!important;
 }
 
+button a {
+  color: #E1DDC2!important;
+}
+
+button a:hover{
+  text-decoration: none;
+}
+
 .home-style button {
-  background-color: #E1DDC2!important;
+  background-color: #45443C!important;
   display: block;
   margin: 0 auto;
   font-size: 1.5em;
@@ -40,13 +48,8 @@ button:hover {
   text-transform: uppercase;
 }
 
-.home-style a{
-  color: #45443C;
-}
-
 .home-style button:hover {
-  background-color: #45443C!important;
-  color: #E1DDC2!important;
+  background-color: #E1DDC2!important;
 }
 
 .home-style a:hover{

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class AllProjects extends Component {
   render() {
     const project = ProjectAPI.all().map(project => (
-      <Link to ={'/ongoing-projects/' + project.id} >
+      <Link to ={'/projects/' + project.id} >
         <li className='all-project-wrap' key={(project.id).toString()}>
           <img src={project.img} alt={project.name} />
           <div className="all-project-description">

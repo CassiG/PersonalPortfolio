@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-         Built with React. 
+        &#169; Cassi Gallagher-Shearer {new Date().getFullYear()} | Built with React. 
       </div>
     );
   }

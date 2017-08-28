@@ -4,7 +4,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Home from './Home'
 import About from './About'
-import OngoingProjects from './OngoingProjects'
+import Projects from './Projects'
 import Contact from './Contact'
 import '.././css/App.css';
 import { default as Fade } from 'react-fade';
@@ -23,8 +23,8 @@ class App extends Component {
               <Route exact path='/' component={Home} />
               <Route exact path='/about' component={About} />
               <Route
-                path='/ongoing-projects'
-                component={OngoingProjects}
+                path='/projects'
+                component={Projects}
               />
               <Route exact path='/contact' component={Contact} />
             </Switch>
