@@ -1,5 +1,5 @@
 .Header-logo {
-  background-color: #000;
+  background-color: #45443C;
   border-radius: 100%;
   height: 80px;
   width: 80px;
@@ -9,14 +9,14 @@
   line-height: 80px;
   margin: 0 auto;
   display:inline-block;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 200;
 }
 
 .Header-logo a {
     text-decoration: none;
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 0;
     letter-spacing: .1em;
 }
@@ -28,6 +28,15 @@ nav {
   font-weight: 200;
 }
 
+nav a {
+  color: #238D6E;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: #60BFA4;
+}
+
 .Header-nav li {
     list-style: none;
     display: inline-block;
@@ -35,8 +44,8 @@ nav {
 }
 
 .Header {
-  height: 100px;
+  height: 105px;
   padding: 10px 0;
-  margin: 0 0 50px 0;
+  margin: 0 0 1.25em 0;
   border-bottom: 1px solid;
 }
