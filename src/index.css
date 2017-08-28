@@ -20,23 +20,57 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
 }
 
-button {
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+button,
+input[type="submit"] {
   background-color: #238D6E!important;
 }
 
-button:hover {
+button:hover,
+input[type="submit"]:hover {
   background-color: #60BFA4!important;
 }
 
-button a {
+button a,
+input[type="submit"]  {
   color: #E1DDC2!important;
 }
 
 button a:hover{
   text-decoration: none;
+}
+
+input[type="submit"] {
+    font-family: var(--button-font-family);
+    font-size: var(--button-font-size);
+    font-weight: var(--button-font-weight);
+    text-align: center;
+    text-decoration: none;
+    border-radius: var(--button-border-radius);
+    border: none;
+    height: var(--button-height);
+    line-height: 1;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    padding: calc(var(--component-spacing) * .5) calc(var(--component-spacing) * .75);
+    -webkit-box-shadow: var(--button-box-shadow);
+    box-shadow: var(--button-box-shadow);
+    cursor: pointer;
+    display: inline-block;
+    -webkit-transition: box-shadow .1s,background-color .1s,color .1s;
+    transition: box-shadow .1s,background-color .1s,color .1s;
 }
 
 .home-style button {
@@ -128,7 +162,8 @@ textarea {
   }
 
   .all-project-wrap p {
-    font-size: .75em;
+    font-size: 1em;
+    font-weight: 200;
   }
 
   .project-wrap {
