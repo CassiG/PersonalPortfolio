@@ -21,6 +21,10 @@
     letter-spacing: .1em;
 }
 
+.Header-logo:hover {
+  background-color: #E6AB30;
+}
+
 nav {
   float: right;
   padding: 2em 0;
