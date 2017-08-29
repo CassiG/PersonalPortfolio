@@ -147,6 +147,7 @@ textarea {
   margin: 10px 0;
 }
 
+/* Desktop Only */
 @media (min-width: 60rem) {
   .all-project-wrap-group {
     display: -webkit-flex;
@@ -186,6 +187,14 @@ textarea {
     width: 45%;
     float:left;
     margin: 0;
+  }
+  .about-me img {
+    float: right;
+    width: 45%;
+  }
+
+  .about-me p {
+    width: 50%;
   }
 
   #wrap {
