@@ -166,10 +166,10 @@ textarea {
     font-size: 1.5em;
   }
 
-  .all-project-wrap-group {
+  ul.all-project-wrap-group {
+    padding: 0;
     display: -webkit-flex;
     display: flex;
-    padding: 0;
   }
 
   .all-project-description {
