@@ -1,5 +1,11 @@
 .Footer {
-  float:right;
+  text-align: center;
   padding: 20px 0;
   clear: both;
+}
+
+@media (min-width: 60rem) {
+  .Footer {
+    float:right;
+  }
 }

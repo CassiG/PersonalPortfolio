@@ -16,7 +16,8 @@ body {
 
 h1 {
   font-family: 'Oswald', sans-serif;
-  font-size: 4.5em;
+  font-size: 3.5em;
+  line-height: 1.5em;
 }
 
 h2 {
@@ -105,7 +106,7 @@ input[type="submit"] {
 }
 
 .home-style p {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 2em;
   font-weight: 300;
 }
@@ -157,6 +158,14 @@ textarea {
 
 /* Desktop Only */
 @media (min-width: 60rem) {
+  h1 {
+    font-size: 4.5em;
+  }
+
+  .home-style p {
+    font-size: 1.5em;
+  }
+
   .all-project-wrap-group {
     display: -webkit-flex;
     display: flex;
