@@ -29,6 +29,14 @@ p {
   font-weight: 400;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
 button,
 input[type="submit"] {
   background-color: #238D6E!important;
