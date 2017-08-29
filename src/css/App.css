@@ -1,6 +1,5 @@
 .App {
   margin: 0 auto;
-  width: 70%;
 }
 
 .App-intro {
@@ -9,4 +8,10 @@
 
 .short-description {
   font-weight: 200;
+}
+
+@media (min-width: 60rem) {
+  .App {
+      width: 70%;
+  }
 }
