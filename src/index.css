@@ -140,6 +140,10 @@ input[type="submit"] {
   color: #E1DDC2;
 }
 
+ul.all-project-wrap-group {
+  padding: 0;
+}
+
 .project-wrap {
   margin: 0 auto;
   text-align: center;
@@ -167,7 +171,6 @@ textarea {
   }
 
   ul.all-project-wrap-group {
-    padding: 0;
     display: -webkit-flex;
     display: flex;
   }
