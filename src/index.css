@@ -169,6 +169,7 @@ textarea {
   .all-project-wrap-group {
     display: -webkit-flex;
     display: flex;
+    padding: 0;
   }
 
   .all-project-description {
