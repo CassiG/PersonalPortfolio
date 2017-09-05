@@ -4,6 +4,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Home from './Home'
 import About from './About'
+import Now from './Now'
 import Projects from './Projects'
 import Contact from './Contact'
 import '.././css/App.css';
@@ -26,6 +27,7 @@ class App extends Component {
                 path='/projects'
                 component={Projects}
               />
+              <Route exact path='/now' component={Now} />
               <Route exact path='/contact' component={Contact} />
             </Switch>
 

@@ -28,7 +28,8 @@ class Header extends Component {
       <ul className='Header-nav'>
         <li key={1}><Link to = '/about'>About</Link></li>
         <li key={2}><Link to = '/projects'>Projects</Link></li>
-        <li key={3}><Link to='/contact'>Contact</Link></li>
+        <li key={3}><Link to = '/now'>Now</Link></li>
+        <li key={4}><Link to='/contact'>Contact</Link></li>
       </ul>
     ];
   }
