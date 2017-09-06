@@ -8,7 +8,7 @@ class About extends Component {
         <h1>What am I up to now?</h1>
         <h2>Projects in Development</h2>
           <ul>
-            <li><strong>PetLibs</strong>: A mad-libs style game that searches Petfinder for eligable pet adoptions that match the game. <br />Built with Node.js and Express. See more on the <a href='https://github.com/CassiG/PetLibs' target='blank_'>github page</a></li>
+            <li><strong>PetLibs</strong>: A mad-libs style game that searches Petfinder for eligible pet adoptions that match the game. <br />Built with Node.js and Express. See more on the <a href='https://github.com/CassiG/PetLibs' target='blank_'>github page</a></li>
           </ul>
 
           <h2>Other Fun Things</h2>
