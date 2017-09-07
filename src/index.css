@@ -96,26 +96,23 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
-.home-style button {
+.home-style a {
   background-color: #45443C!important;
+  color: #E1DDC2!important;
   display: block;
   margin: 0 auto;
   font-size: 1.5em;
-  height: 2em;
+  padding: .5em;
   text-transform: uppercase;
-}
-
-.home-style button:hover {
-  background-color: #E1DDC2!important;
-}
-
-.home-style button a:hover {
-    background-color: #E1DDC2!important;
-    color: #45443C!important;
+  width: 20%;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 200;
 }
 
 .home-style a:hover{
-  color: #E1DDC2!important;
+  background-color: #E1DDC2!important;
+  color: #45443C!important;
   text-decoration: none;
 }
 
