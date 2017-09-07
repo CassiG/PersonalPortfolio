@@ -12,7 +12,7 @@ class ProjectItem extends Component {
           <p className='short-description'>{project.shortDescription}</p>
           <p>About the Project: {project.longDescription}</p>
           <p>Technology Used: {project.technology}</p>
-          <button><a href={project.website} target="_blank">See it Live</a></button>
+          <button><a href={project.website} target="_blank" rel="noopener noreferrer">See it Live</a></button>
         </div>
       </div>
     );

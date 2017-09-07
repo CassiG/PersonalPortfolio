@@ -25,11 +25,11 @@ class Header extends Component {
 
   navigationLinks() {
     return [
-      <ul className='Header-nav'>
-        <li key={1}><Link to = '/about'>About</Link></li>
-        <li key={2}><Link to = '/projects'>Projects</Link></li>
-        <li key={3}><Link to = '/now'>Now</Link></li>
-        <li key={4}><Link to='/contact'>Contact</Link></li>
+      <ul className='Header-nav' key={1}>
+        <li key={2}><Link to = '/about'>About</Link></li>
+        <li key={3}><Link to = '/projects'>Projects</Link></li>
+        <li key={4}><Link to = '/now'>Now</Link></li>
+        <li key={5}><Link to='/contact'>Contact</Link></li>
       </ul>
     ];
   }

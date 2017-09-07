@@ -13,22 +13,22 @@ class About extends Component {
           <div className="container">
             <div className="row">
               <div className="col-1"><i className="fa fa-meetup" aria-hidden="true"></i></div>
-              <div className="col-10">Currently seeking new opportunities and networking. I'll see you at: <a href="https://www.eventbrite.com/e/a-gentle-introduction-to-functional-programing-with-elixir-tickets-36986903825" target="blank_">A Gentle Introduction to Functional Programing with Elixir</a> on September 6th!</div>
+              <div className="col-10">Currently seeking new opportunities and networking. I'll see you at: <a href="https://www.eventbrite.com/e/a-gentle-introduction-to-functional-programing-with-elixir-tickets-36986903825" target="blank_" rel="noopener noreferrer">A Gentle Introduction to Functional Programing with Elixir</a> on September 6th!</div>
             </div>
 
             <div className="row">
               <div className="col-1"><i className="fa fa-laptop" aria-hidden="true"></i></div>
-              <div className="col-10">Helping set up Cogrammers, a community-based in-person meetup group dedicated to helping people learn to code. More info to come on <a href="https://cogrammers.community/" target="blank_">cogrammers.community</a></div>
+              <div className="col-10">Helping set up Cogrammers, a community-based in-person meetup group dedicated to helping people learn to code. More info to come on <a href="https://cogrammers.community/" target="blank_" rel="noopener noreferrer">cogrammers.community</a></div>
             </div>
 
             <div className="row">
               <div className="col-1"><i className="fa fa-graduation-cap" aria-hidden="true"></i></div>
-              <div className="col-10">Continuing to learn by going through <a href="https://cs50.harvard.edu/" target="blank_">Harvards Online CS50 Course</a> and practicing my algorithm skills on <a href="https://www.hackerrank.com/ccgall" target="blank_">HackerRank</a></div>
+              <div className="col-10">Continuing to learn by going through <a href="https://cs50.harvard.edu/" target="blank_" rel="noopener noreferrer">Harvards Online CS50 Course</a> and practicing my algorithm skills on <a href="https://www.hackerrank.com/ccgall" target="blank_" rel="noopener noreferrer">HackerRank</a></div>
             </div>
 
             <div className="row">
               <div className="col-1"><i className="fa fa-gamepad" aria-hidden="true"></i></div>
-              <div className="col-10">Playing through <a href="https://www.supergiantgames.com/games/pyre/" target="blank_">Pyre</a> an absolutely gorgeous game by Supergiant Game</div>
+              <div className="col-10">Playing through <a href="https://www.supergiantgames.com/games/pyre/" target="blank_" rel="noopener noreferrer">Pyre</a> an absolutely gorgeous game by Supergiant Game</div>
             </div>
 
             <div className="row">
