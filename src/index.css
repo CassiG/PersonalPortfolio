@@ -40,6 +40,12 @@ p {
   display: inline-block;
 }
 
+.fa {
+  font-size: 1.75em;
+  margin: 0 10px;
+}
+
+
 button,
 input[type="submit"] {
   background-color: #238D6E!important;
@@ -156,6 +162,7 @@ ul.all-project-wrap-group {
 .social-icons {
     float: right;
     padding: 2em 0;
+    margin: 0 -20px 0px 0px;
 }
 
 input.input-lg {
