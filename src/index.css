@@ -109,6 +109,11 @@ input[type="submit"] {
   background-color: #E1DDC2!important;
 }
 
+.home-style button a:hover {
+    background-color: #E1DDC2!important;
+    color: #45443C!important;
+}
+
 .home-style a:hover{
   color: #E1DDC2!important;
   text-decoration: none;
