@@ -77,9 +77,18 @@ class Header extends Component {
         </div>
           {this.renderNavigation()}
           <div className="social-icons">
-            <i className="fa fa-github" aria-hidden="true"></i>
-            <i className="fa fa-linkedin" aria-hidden="true"></i>
-            <i className="fa fa-twitter" aria-hidden="true"></i>
+            <a href="https://github.com/CassiG" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-github" aria-hidden="true"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/cassigallagher/" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+
+            <a href="https://twitter.com/cassigallagher" target="_blank" rel="noopener noreferrer">
+              <i className="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+
           </div>
         </div>
       </div>
