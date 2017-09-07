@@ -92,6 +92,8 @@ input[type="submit"] {
     display: inline-block;
     -webkit-transition: box-shadow .1s,background-color .1s,color .1s;
     transition: box-shadow .1s,background-color .1s,color .1s;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .home-style button {
