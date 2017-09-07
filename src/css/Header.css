@@ -52,6 +52,14 @@
   padding: 2em 0;
 }
 
+a .fa {
+  color: #45443C;
+}
+
+a:hover .fa {
+  color: #238D6E;
+}
+
 .nav-menu,
 .mobile-nav {
   float: right;
