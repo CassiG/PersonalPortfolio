@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProjectAPI from '../project-api';
 import { Link } from 'react-router-dom';
+import { default as Fade } from 'react-fade';
 
 class AllProjects extends Component {
   render() {
@@ -16,9 +17,12 @@ class AllProjects extends Component {
       </Link>
       ));
     return(
+      <Fade duration = {0.5}>
+
       <ul className="all-project-wrap-group">
       {project}
       </ul>
+      </Fade>
     );
   }
 }

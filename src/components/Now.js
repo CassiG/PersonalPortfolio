@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import { default as Fade } from 'react-fade';
 
 class About extends Component {
   render() {
     return(
+      <Fade duration = {0.5}>
+
       <div>
+
         <h1>What am I up to now?</h1>
         <h2>Projects in Development</h2>
           <p><strong>PetLibs</strong>: A mad-libs style game that searches Petfinder for eligible pet adoptions that match the game. Currently being built with Node.js and Express. See more on the <a href='https://github.com/CassiG/PetLibs' target='blank_'>github page</a></p>
@@ -38,6 +42,7 @@ class About extends Component {
           </div>
 
       </div>
+      </Fade>
     );
   }
 }

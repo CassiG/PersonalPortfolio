@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import { default as Fade } from 'react-fade';
 
 class About extends Component {
   render() {
     return(
+      <Fade duration = {0.5}>
       <div className="about-me">
         <h1>About</h1>
         <img src="cassigallagher.png" alt="Cassi Gallagher-Shearer" />
@@ -18,6 +20,7 @@ class About extends Component {
         <i className="fa fa-twitter" aria-hidden="true"></i> <a href="https://www.twitter.com/cassigallagher/" target="_blank" rel="noopener noreferrer"> Twitter</a><br />
         <i className="fa fa-file-text" aria-hidden="true"></i><a href='CassiGallagherResume.pdf' target="_blank" rel="noopener noreferrer"> Download Resume</a><br />
       </div>
+      </Fade>
     );
   }
 }
