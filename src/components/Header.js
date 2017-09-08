@@ -26,11 +26,11 @@ class Header extends Component {
   navigationLinks() {
     return [
       <ul className='Header-nav' key={1}>
-        <li key={2}><Link to = '/about'>About</Link></li>
-        <li key={3}><Link to = '/projects'>Projects</Link></li>
-        <li key={4}><Link to = '/now'>Now</Link></li>
-        <li key={5}><Link to='/contact'>Contact</Link></li>
-        <li key={6}><Link to='/blog'>Words</Link></li>
+        <li key={2}><Link to = '/about' onClick={this.handleInnerNavClick.bind(this)}>About</Link></li>
+        <li key={3}><Link to = '/projects' onClick={this.handleInnerNavClick.bind(this)}>Projects</Link></li>
+        <li key={4}><Link to = '/now' onClick={this.handleInnerNavClick.bind(this)}>Now</Link></li>
+        <li key={5}><Link to='/contact' onClick={this.handleInnerNavClick.bind(this)}>Contact</Link></li>
+        <li key={6}><Link to='/blog' onClick={this.handleInnerNavClick.bind(this)}>Words</Link></li>
       </ul>
     ];
   }
@@ -66,6 +66,10 @@ class Header extends Component {
     } else {
       this.setState({mobileNavVisable: false});
     }
+  }
+
+  handleInnerNavClick() {
+    this.setState({mobileNavVisable: false});
   }
 
   render() {

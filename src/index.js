@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
-import promise from 'redux-promise';
+// import promise from 'redux-promise';
 // const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 
