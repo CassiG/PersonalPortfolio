@@ -1,11 +1,31 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { fetchPosts } from '../actions/index';
 
 class Blog extends Component {
-  render () {
+  componentWillMount() {
+    this.props.fetchPosts();
+  }
+  renderPosts() {
+    return this.props.posts.map((post, index) => {
+      return (
+        <article key={post.sys.id}>
+          <h3>{post.fields.title}</h3>
+          <p>{post.fields.body}</p>
+        </article>
+      );
+    });
+  }
+  render() {
     return (
-      <h1>Blog</h1>
-    )
+      <div>
+        <h2>Blog Posts</h2>
+        {this.renderPosts()}
+      </div>
+    );
   }
 }
-
-export default Blog;
+function mapStateToProps(state) {
+  return { posts: state.posts.all };
+}
+export default connect(mapStateToProps, { fetchPosts })(Blog);
