@@ -30,7 +30,6 @@ class Header extends Component {
         <li key={3}><Link to = '/projects' onClick={this.handleInnerNavClick.bind(this)}>Projects</Link></li>
         <li key={4}><Link to = '/now' onClick={this.handleInnerNavClick.bind(this)}>Now</Link></li>
         <li key={5}><Link to='/contact' onClick={this.handleInnerNavClick.bind(this)}>Contact</Link></li>
-        <li key={6}><Link to='/blog' onClick={this.handleInnerNavClick.bind(this)}>Words</Link></li>
       </ul>
     ];
   }
