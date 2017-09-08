@@ -46,7 +46,8 @@ class Header extends Component {
       return [
         <div className="mobile-nav">
           <p onClick={this.handleNavClick.bind(this)}>
-            Menu
+          <i className="fa fa-bars" aria-hidden="true"></i>
+
           </p>
           {this.renderMobileNav()}
         </div>
@@ -78,21 +79,23 @@ class Header extends Component {
       <div>
         <div className="Header">
         <div className="Header-logo" alt="logo">
-          <Link to ='/'>CGS</Link>
+          <Link to ='/' onClick={this.handleInnerNavClick.bind(this)}>CGS</Link>
         </div>
-          {this.renderNavigation()}
-          <div className="social-icons">
-            <a href="https://github.com/CassiG" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-github" aria-hidden="true"></i>
-            </a>
+        <div className='right-header'>
+            <div className="social-icons">
+              <a href="https://github.com/CassiG" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-github" aria-hidden="true"></i>
+              </a>
 
-            <a href="https://www.linkedin.com/in/cassigallagher/" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
+              <a href="https://www.linkedin.com/in/cassigallagher/" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
 
-            <a href="https://twitter.com/cassigallagher" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-twitter" aria-hidden="true"></i>
-            </a>
+              <a href="https://twitter.com/cassigallagher" target="_blank" rel="noopener noreferrer">
+                <i className="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+            {this.renderNavigation()}
 
           </div>
         </div>

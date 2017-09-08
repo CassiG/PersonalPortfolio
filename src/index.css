@@ -62,7 +62,7 @@ input[type="submit"]:hover {
 
 button a,
 input[type="submit"]  {
-  color: #E1DDC2!important;
+  color: #FFF!important;
 }
 
 button a:hover{
@@ -98,8 +98,8 @@ input[type="submit"] {
 
 .home-style a {
   background-color: #45443C!important;
-  color: #E1DDC2!important;
-  display: block;
+  color: #FFF!important;
+  /*display: block;*/
   margin: 0 auto;
   font-size: 1.5em;
   padding: .5em;
@@ -111,7 +111,7 @@ input[type="submit"] {
 }
 
 .home-style a:hover{
-  background-color: #E1DDC2!important;
+  background-color: #FFF!important;
   color: #45443C!important;
   text-decoration: none;
 }
@@ -153,7 +153,7 @@ input[type="submit"] {
 
 .all-project-description {
   padding: 10px;
-  color: #E1DDC2;
+  color: #FFF;
 }
 
 ul.all-project-wrap-group {
@@ -165,12 +165,6 @@ ul.all-project-wrap-group {
   text-align: center;
   margin: 2em 0 0 0;
   display: block;
-}
-
-.social-icons {
-    float: right;
-    padding: 2em 0;
-    margin: 0 -20px 0px 0px;
 }
 
 input.input-lg {
