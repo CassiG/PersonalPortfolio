@@ -30,6 +30,7 @@ class Header extends Component {
         <li key={3}><Link to = '/projects'>Projects</Link></li>
         <li key={4}><Link to = '/now'>Now</Link></li>
         <li key={5}><Link to='/contact'>Contact</Link></li>
+        <li key={6}><Link to='/blog'>Words</Link></li>
       </ul>
     ];
   }

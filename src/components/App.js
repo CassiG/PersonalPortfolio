@@ -7,6 +7,7 @@ import About from './About'
 import Now from './Now'
 import Projects from './Projects'
 import Contact from './Contact'
+import Blog from './Blog'
 import '.././css/App.css';
 import { default as Fade } from 'react-fade';
 
@@ -29,6 +30,7 @@ class App extends Component {
               />
               <Route exact path='/now' component={Now} />
               <Route exact path='/contact' component={Contact} />
+              <Route exact path='/blog' component={Blog} />
             </Switch>
 
           <Footer />
