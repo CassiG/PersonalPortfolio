@@ -5,7 +5,7 @@ import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import promise from 'redux-promise';
-const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
+// const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 
 ReactDOM.render((
