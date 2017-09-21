@@ -10,14 +10,15 @@ class About extends Component {
 
         <h1>What am I up to now?</h1>
         <h2>Projects in Development</h2>
-          <p><strong>PetLibs</strong>: A mad-libs style game that searches Petfinder for eligible pet adoptions that match the game. Currently being built with Node.js and Express. See more on the <a href='https://github.com/CassiG/PetLibs' target='blank_'>github page</a></p>
+          {/*<p><strong>PetLibs</strong>: A mad-libs style game that searches Petfinder for eligible pet adoptions that match the game. Currently being built with Node.js and Express. See more on the <a href='https://github.com/CassiG/PetLibs' target='blank_'>github page</a></p>*/}
+          <p><strong>30 Projects Project</strong>: A Ruby on Rails blog documenting the learning process of a new thing through 30 projects. See more on the <a href='https://github.com/CassiG/30-projects-project' target='blank_'>github page</a></p>
 
           <h2>Other Fun Things</h2>
 
           <div className="container">
             <div className="row">
               <div className="col-1"><i className="fa fa-meetup" aria-hidden="true"></i></div>
-              <div className="col-10">Currently seeking new opportunities and networking. I'll see you at: <a href="https://www.eventbrite.com/e/a-gentle-introduction-to-functional-programing-with-elixir-tickets-36986903825" target="blank_" rel="noopener noreferrer">A Gentle Introduction to Functional Programing with Elixir</a> on September 6th!</div>
+              <div className="col-10">Currently seeking new opportunities and networking. I'll see you at: <a href="https://www.meetup.com/shescoding-seattle/events/243400135/" target="blank_" rel="noopener noreferrer">Mock Interviews with BrandVerity </a> on September 26th, 2017!</div>
             </div>
 
             <div className="row">
