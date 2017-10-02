@@ -1,7 +1,7 @@
 # Cassi Gallagher-Shearer Portfolio
 
 This website is a showcase of all the projects I have done and are working on through Cassi Gallagher-Shearer Development and Design.
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). See the live version at [http://www.cassigallagher.com/](http://www.cassigallagher.com/)
 
 ## Contents
 
