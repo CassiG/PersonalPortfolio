@@ -8,7 +8,7 @@ class About extends Component {
       <div className="about-me">
         <h1>About</h1>
         <img src="cassigallagher.png" alt="Cassi Gallagher-Shearer" />
-        <p>I'm a full-stack web developer based in Seattle, WA. I'm currently seeking new opportunities in the Front-End Development space.</p>
+        <p>I'm a Web Developer and Designer based in Seattle, WA. I'm currently seeking new opportunities in the Front-End Development space.</p>
 
         <p>I'm passionate about creative problem solving and visual communication. I particularly love it's role in shaping our understanding of a topic or captivating an audience. I have a B.A. in Visual Journalism from <a href ="https://www.wwu.edu/" target="_blank" rel="noopener noreferrer">Western Washington University</a> and a Full-Stack Web Development Certificate from <a href="https://devbootcamp.com/" target="blank_" rel="noopener noreferrer">Dev Bootcamp</a>. I love learning new things and currently you can probably find me leveling up my code at HackerRank or Frontend Masters, or attending a Women Who Code Meetup or Hackathon.</p>
 
