@@ -9,7 +9,8 @@ const ProjectAPI = {
       shortDescription: "Web Development | Project Managment",
       longDescription: "Devs4Good is a platform for web developers can give back to the community by bringing non-profit visions to life. The project was designed in a week working with a team of 3 other Dev Bootcamp Students for our final project.",
       role: "My role on the team was web developer and scrum (project) manager. Working in vertical slices, my team and myself worked on various parts of the back-end and front-end build. In addition to that I made sure that our daily tasks were organized and we knew where the project was going or what needed to be done on a daily basis.",
-      technology: "Ruby on Rails, PostgreSQL, ActiveRecord, JQuery, ProPublica Non-Profit API, CKEditor (rich text entry), Sorcery (user login), Bourbon (CSS framework), Travis CI (continuous integration/testing), SimpleCov (test coverage), Heroku (deployment), Trello (Project Managment)"
+      fronEnd: "Javascript, jQuery, Bourbon (CSS framework), Trello (Project Managment)",
+      backEnd: "Ruby on Rails, PostgreSQL, ActiveRecord, ProPublica Non-Profit API, CKEditor (rich text entry), Sorcery (user login), Travis CI (continuous integration/testing), SimpleCov (test coverage), Heroku (deployment)"
     },
     {
       id: 2,
@@ -19,7 +20,7 @@ const ProjectAPI = {
       github: 'https://github.com/CassiG/PersonalPortfolio',
       shortDescription: "Web Development | Web Design",
       longDescription: "This is a personal website created as a way to showcase projects I have worked on or been a part of",
-      technology: "React, HTML, CSS, Shoelace-css"
+      frontEnd: "HTML5, CSS3, Shoelace-css (CSS framework), Javascript, React"
     },
   ],
   all: function() { return this.projectItem },

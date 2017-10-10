@@ -11,7 +11,8 @@ class ProjectItem extends Component {
           <h2>{project.name}</h2>
           <p className='short-description'>{project.shortDescription}</p>
           <p>About the Project: {project.longDescription}</p>
-          <p>Technology Used: {project.technology}</p>
+          <p>Front-End Technology Used: {project.frontEnd}</p>
+          <p>Back-End Technology Used: {project.backEnd}</p>
           <button><a href={project.website} target="_blank" rel="noopener noreferrer">View Live</a></button>
           <button><a href={project.github} target="_blank" rel="noopener noreferrer">See Source</a></button>
         </div>
