@@ -18,12 +18,17 @@ class About extends Component {
 
           <div className="container">
             <div className="row">
-              <div className="col-auto"><i className="fa fa-meetup" aria-hidden="true"></i></div>
-              <div className="col">Currently seeking new opportunities and networking. I'll see you at: <a href="https://www.eventbrite.com/e/seattle-women-in-digital-kick-off-meeting-tickets-36726705565" target="blank_" rel="noopener noreferrer">Seattle Women in Digital Kick Off Meeting </a> on October 12th, 2017!</div>
+              <div className="col-auto"><i className="fa fa-laptop" aria-hidden="true"></i></div>
+              <div className="col">Interning with a startup part-time, <a href="http://www.levelingthefield.com/" target = 'blank_'>Leveling the Field</a> helping connect seniors in high school with college opportunities</div>
             </div>
 
             <div className="row">
-              <div className="col-auto"><i className="fa fa-laptop" aria-hidden="true"></i></div>
+              <div className="col-auto"><i className="fa fa-meetup" aria-hidden="true"></i></div>
+              <div className="col">Currently seeking opportunities, and spending time meeting new people! I'll see you at: <a href="https://www.meetup.com/BallardTechHH/events/237787094/" target="blank_" rel="noopener noreferrer">Ballard Tech Happy Hour</a> on October 31st, 2017!</div>
+            </div>
+
+            <div className="row">
+              <div className="col-auto"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
               <div className="col">Helping set up Cogrammers, a community-based in-person meetup group dedicated to helping people learn to code. More info to come on <a href="https://cogrammers.community/" target="blank_" rel="noopener noreferrer">cogrammers.community</a></div>
             </div>
 
