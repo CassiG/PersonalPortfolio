@@ -28,7 +28,7 @@ class About extends Component {
             </div>
 
             <div className="row">
-              <div className="col-auto"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+              <div className="col-auto"><i className="fa fa-graduation-cap" aria-hidden="true"></i></div>
               <div className="col">Helping set up Cogrammers, a community-based in-person meetup group dedicated to helping people learn to code. More info to come on <a href="https://cogrammers.community/" target="blank_" rel="noopener noreferrer">cogrammers.community</a></div>
             </div>
 
