@@ -9,37 +9,36 @@ class About extends Component {
       <div>
 
         <h1>What am I up to now?</h1>
-        <p>Last Updated: October 18th, 2017</p>
+        <p>Last Updated: July 2018</p>
         <h2>Projects in Development</h2>
-          {/*<p><strong>PetLibs</strong>: A mad-libs style game that searches Petfinder for eligible pet adoptions that match the game. Currently being built with Node.js and Express. See more on the <a href='https://github.com/CassiG/PetLibs' target='blank_'>github page</a></p>*/}
-          <p><strong>30 Projects Project</strong>: A custom-built Wordpress blog documenting the learning process of a new thing through 30 projects. See more on the <a href='https://github.com/CassiG/30-projects-project' target='blank_'>github page</a></p>
+          <p><strong>Jeff Shearer Consulting</strong>: A custom-built Wordpress site focusing on consulting for <a href="https://www.jeffrshearer.com/">jeffrshearer.com</a></p>
 
           <h2>Other Fun Things</h2>
 
           <div className="container">
             <div className="row">
               <div className="col-auto"><i className="fa fa-laptop" aria-hidden="true"></i></div>
-              <div className="col">Interning with a startup part-time, <a href="http://www.levelingthefield.com/" target = 'blank_'>Leveling the Field</a> helping connect seniors in high school with college opportunities</div>
-            </div>
-
-            <div className="row">
-              <div className="col-auto"><i className="fa fa-meetup" aria-hidden="true"></i></div>
-              <div className="col">Currently seeking opportunities, and spending time meeting new people! I'll see you at: <a href="https://www.meetup.com/BallardTechHH/events/237787094/" target="blank_" rel="noopener noreferrer">Ballard Tech Happy Hour</a> on October 31st, 2017!</div>
+              <div className="col">Developing at <a href="https://www.slalom.com/" target = 'blank_'>Slalom Consulting</a></div>
             </div>
 
             <div className="row">
               <div className="col-auto"><i className="fa fa-graduation-cap" aria-hidden="true"></i></div>
-              <div className="col">Helping set up Cogrammers, a community-based in-person meetup group dedicated to helping people learn to code. More info to come on <a href="https://cogrammers.community/" target="blank_" rel="noopener noreferrer">cogrammers.community</a></div>
+              <div className="col">Helping solve non-profit solutions with tech over at <a href="https://www.theworldisfun.org/" target="blank_" rel="noopener noreferrer">The World is Fun</a></div>
             </div>
 
             <div className="row">
               <div className="col-auto"><i className="fa fa-graduation-cap" aria-hidden="true"></i></div>
-              <div className="col">Continuing to learn by going through <a href="https://cs50.harvard.edu/" target="blank_" rel="noopener noreferrer">Harvards Online CS50 Course</a> and practicing my algorithm skills on <a href="https://www.hackerrank.com/ccgall" target="blank_" rel="noopener noreferrer">HackerRank</a></div>
+              <div className="col">Honing in on all things Front-end at <a href="https://frontendmasters.com/" target="blank_" rel="noopener noreferrer"Front End Masters></a></div>
             </div>
 
             <div className="row">
               <div className="col-auto"><i className="fa fa-gamepad" aria-hidden="true"></i></div>
-              <div className="col">Playing through <a href="https://www.supergiantgames.com/games/pyre/" target="blank_" rel="noopener noreferrer">Pyre</a> an absolutely gorgeous game by Supergiant Game</div>
+              <div className="col">Playing through the beautiful <a href="https://www.orithegame.com/" target="blank_" rel="noopener noreferrer">Ori and the Blind Forest</a></div>
+            </div>
+
+            <div className="row">
+              <div className="col-auto"><i className="fa fa-heartbeat" aria-hidden="true"></i></div>
+              <div className="col">Rediscovering the joy (?) of running with my local <a href="https://www.meetup.com/FBCB-RUNCLUB/" target="blank_" rel="noopener noreferrer">brewery run club</a></div>
             </div>
 
             <div className="row">
