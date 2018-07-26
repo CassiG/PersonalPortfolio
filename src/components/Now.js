@@ -22,13 +22,13 @@ class About extends Component {
             </div>
 
             <div className="row">
-              <div className="col-auto"><i className="fa fa-graduation-cap" aria-hidden="true"></i></div>
+              <div className="col-auto"><i className="fa fa-hands-helping" aria-hidden="true"></i></div>
               <div className="col">Helping solve non-profit solutions with tech over at <a href="https://www.theworldisfun.org/" target="blank_" rel="noopener noreferrer">The World is Fun</a></div>
             </div>
 
             <div className="row">
               <div className="col-auto"><i className="fa fa-graduation-cap" aria-hidden="true"></i></div>
-              <div className="col">Honing in on all things Front-end at <a href="https://frontendmasters.com/" target="blank_" rel="noopener noreferrer"Front End Masters></a></div>
+              <div className="col">Honing in on all things Front-end at <a href="https://frontendmasters.com/" target="blank_" rel="noopener noreferrer">Front End Masters</a></div>
             </div>
 
             <div className="row">
