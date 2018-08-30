@@ -6,9 +6,10 @@ class BlogItem extends Component {
         return(
             <div>
                 <Link to={{
-                    pathname: `/blog${this.props.path}`,
+                    pathname: `/blog/${this.props.path}`,
                     state: { ...this.props }
                 }} >{this.props.title}</Link>
+                {this.props.body}
             </div>
         )
     }
